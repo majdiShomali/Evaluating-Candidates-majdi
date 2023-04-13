@@ -104,6 +104,7 @@ emailValidate(user.email)&&
 PassWordValidate(user.passWord)&&
 user.confirm==user.passWord){
   alert("welcome, now you have an account")
+  location.replace("./signin.html")
   // location.replace("../welcomepage/welcome.html")
 }
    
